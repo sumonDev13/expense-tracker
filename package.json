@@ -1,0 +1,21 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A production-grade expense tracker application",
+  "main": "index.js",
+  "scripts": {
+    "dev:client": "pnpm --filter client dev",
+    "dev:server": "pnpm --filter server dev",
+    "build:client": "pnpm --filter client build",
+    "build:server": "pnpm --filter server build",
+    "start:client": "pnpm --filter client start",
+    "start:server": "pnpm --filter server start",
+    "lint:client": "pnpm --filter client lint",
+    "lint:server": "pnpm --filter server lint",
+    "lint": "pnpm lint:client && pnpm lint:server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "private": true
+}
